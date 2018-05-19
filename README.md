@@ -1,7 +1,10 @@
 # Automated Uncertain Seismic Unconformities Mapping  
 
+  
 ## Motivation  
-Auto-tracking unconformity in seismic can be improved, human interpreter and QC is time-consuming. The problem of improving our unconformity mapping is widespread for geologists and geophysicists in exploration.  
+* Manual interpretation is time-consuming  
+* Auto-tracking is far from perfect and still requires human QC  
+* The problem of improving our unconformity mapping is widespread for geologists and geophysicists in exploration.  
   
 ## Background  
 Unconformity is the maximum flooding surface between discontinuous beds in the subsurface. Understanding unconformities locally, regionally, and globally is the basis of sequence stratigraphy. Importance of understanding unconformity include:  
@@ -41,9 +44,8 @@ We can use image
 [Gempy](https://github.com/cgre-aachen/gempy)   
 [Pynoddy](https://github.com/flohorovicic/pynoddy)   
 [CycleGAN repo](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)  
-[Paper for CycleGAN](https://arxiv.org/abs/1703.10593)
-
-
+[Paper for CycleGAN](https://arxiv.org/abs/1703.10593)  
+  
 ## Terminology
-*Unconformity*: A discontinuity in sediment deposition shown as buried erosional surface separating 2 rock masses or strata of different ages. or Geologic surface separating older from younger rocks and representing a gap in the geologic record.  
-*GAN*: Part of convolutional neural network, a class of unsupervised learning, implemented by a competing dual-neural-network system.  
+**Unconformity**: A discontinuity in sediment deposition shown as buried erosional surface separating 2 rock masses or strata of different ages. or Geologic surface separating older from younger rocks and representing a gap in the geologic record.  
+**GAN**: Part of convolutional neural network, a class of unsupervised learning, implemented by a competing dual-neural-network system.  
