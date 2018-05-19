@@ -1,5 +1,6 @@
 # Automated Uncertain Seismic Unconformities Mapping  
 
+*Part of Subsurface Hackathon 2018 in Salt Lake City*
   
 ## Motivation  
 * Manual interpretation is time-consuming  
@@ -45,6 +46,10 @@ We can use image
 [Pynoddy](https://github.com/flohorovicic/pynoddy)   
 [CycleGAN repo](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)  
 [Paper for CycleGAN](https://arxiv.org/abs/1703.10593)  
+    
+##  Thanks  
+Evan, Gram and Diego from Agile
+Steve Pursey
   
 ## Terminology
 **Unconformity**: A discontinuity in sediment deposition shown as buried erosional surface separating 2 rock masses or strata of different ages. or Geologic surface separating older from younger rocks and representing a gap in the geologic record.  
