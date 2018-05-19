@@ -1,4 +1,4 @@
-# Automated Uncertain Seismic Unconformities Mapping  
+# AUSUM (Automated Unconformity Seismic-Uncertainty Mapping)  
 
 *Part of Subsurface Hackathon 2018 in Salt Lake City*
   
