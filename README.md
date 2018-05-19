@@ -1,7 +1,9 @@
-# AUSUM (Automated Unconformity Seismic-Uncertainty Mapping)  
+# AUSUM  
+### *(Automated Unconformity Seismic-Uncertainty Mapping)*  
 
 *Part of Subsurface Hackathon 2018 in Salt Lake City*
   
+--  
 ## Motivation  
 * Manual interpretation is time-consuming  
 * Auto-tracking is far from perfect and still requires human QC  
@@ -9,9 +11,11 @@
   
 ## Background  
 Unconformity is the maximum flooding surface between discontinuous beds in the subsurface. Understanding unconformities locally, regionally, and globally is the basis of sequence stratigraphy. Importance of understanding unconformity include:  
-1)	hydrocarbon migration indicators (if the unconformity is permeable)  
-2)	reservoir trap (if beds overlying the eroded surface are impermeable)  
-Popular unconformities include Base Cretaceous Unconformity. Popular reservoirs with permeable unconformity pathways include Permian. Excellent unconformity traps include the Prudhoe Bay oil field and flanks of Central Kansas and Nemaha uplifts, such as the Mississippian limestone of the Central Kansas uplift beneath the Pennsylvanian/Mississippian unconformity.  
+* Hydrocarbon migration indicators (if the unconformity is permeable)  
+* Reservoir trap (if beds overlying the eroded surface are impermeable)  
+
+(*Popular unconformities include Base Cretaceous Unconformity. Popular reservoirs with permeable unconformity pathways include Permian. Excellent unconformity traps include the Prudhoe Bay oil field and flanks of Central Kansas and Nemaha uplifts, such as the Mississippian limestone of the Central Kansas uplift beneath the Pennsylvanian/Mississippian unconformity.*)  
+
 Can we utilize AI to help identify and map key unconformities in earth models? In Seismic?  
   
 ## Big Idea / Overarching Goal  
@@ -40,7 +44,10 @@ How can we increase of training data set? Minor rotate of XX degrees.
 ## Step 2: GAN for image-to-image translation  
 We can use image  
 
-## Resources  
+## Resources
+[**Presentation Slide**](https://docs.google.com/presentation/d/1vwxIKiREnsplgJSapd_Hqvakvf5Alu5WpRnMS_sSUIw/edit#slide=id.g3ab9f14b8d_0_0)  
+  
+### References
 [Earth Model Data](https://github.com/gganssle/cseg-imXlate/tree/master/dat)  
 [Gempy](https://github.com/cgre-aachen/gempy)   
 [Pynoddy](https://github.com/flohorovicic/pynoddy)   
