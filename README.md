@@ -4,7 +4,7 @@
 
 Collaborators: Didi Ooi, Karin Maria (Shell), Zoe Zhang (Chevron), Alana Finlayson (Oil and Gas Authority)
 
-...*Part of Subsurface Hackathon 2018 in Salt Lake City*
+...*Part of [Agile*](https://agilescientific.com) Subsurface Hackathon 2018 in Salt Lake City*
 
   
 ## Motivation  
@@ -46,11 +46,19 @@ Create Automated Labeling, Tile Maker, Image Pairs of data and model, CycleGAN m
 
 ## Step 2: Model Training Deep Learning
 Goal: Train image-to-image translation with as many data as possible and predict.  
+Current Training Data: 600 earth models derived from 
 Algorithm: CycleGAN
 Software: Tensorflow
+
   
-## Step 2: Using GAN to predict  
-Current prediction on 5 blind test data: 80% accuracy  
+## Step 3: Using GAN to predict  
+Current prediction on 5 blind test data: 80% accuracy 
+
+## Step 4: UI
+Mock-up of [UI for Deep Learning Application on Seismic](https://share.proto.io/9PV78C/)
+
+## Other Applications
+Channel detection in Deepwater Turbidite systems 
 
 ## Resources
 [**Presentation Slide**](https://docs.google.com/presentation/d/1vwxIKiREnsplgJSapd_Hqvakvf5Alu5WpRnMS_sSUIw/edit#slide=id.g3ab9f14b8d_0_0)  
@@ -65,7 +73,7 @@ Current prediction on 5 blind test data: 80% accuracy
 [Paper for CycleGAN](https://arxiv.org/abs/1703.10593)  
     
 ##  Thanks  
-Evan, Gram and Diego from Agile
+Evan, Gram and Diego from [Agile*](https://agilescientific.com)
 Steve Purves
   
 ## Terminology
