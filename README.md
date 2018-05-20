@@ -1,5 +1,8 @@
-# AUSUM  
+![](https://github.com/didiooi/UnconformityDetection/blob/master/misc/frontpage2.png)
+# The Unconformist  
 ### *(Automating Uncertainty: Seismic Unconformity Mapping)*  
+
+Collaborators: Didi Ooi, Karin Maria (Shell), Zoe Zhang (Chevron), Alana Finlayson (Oil and Gas Authority)
 
 *Part of Subsurface Hackathon 2018 in Salt Lake City*
   
