@@ -5,8 +5,7 @@
 Collaborators: Didi Ooi, Karin Maria (Shell), Zoe Zhang (Chevron), Alana Finlayson (Oil and Gas Authority)
 
 ...*Part of Subsurface Hackathon 2018 in Salt Lake City*
-  
-![](https://github.com/didiooi/UnconformityDetection/blob/master/misc/logo.png)
+
   
 ## Motivation  
 * Manual interpretation is time-consuming  
@@ -56,6 +55,8 @@ Current prediction on 5 blind test data: 80% accuracy
 ## Resources
 [**Presentation Slide**](https://docs.google.com/presentation/d/1vwxIKiREnsplgJSapd_Hqvakvf5Alu5WpRnMS_sSUIw/edit#slide=id.g3ab9f14b8d_0_0)  
   
+![](https://github.com/didiooi/UnconformityDetection/blob/master/misc/Logo.png)  
+
 ### References
 [Earth Model Data](https://github.com/gganssle/cseg-imXlate/tree/master/dat)  
 [Gempy](https://github.com/cgre-aachen/gempy)   
