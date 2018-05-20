@@ -4,9 +4,10 @@
 
 Collaborators: Didi Ooi, Karin Maria (Shell), Zoe Zhang (Chevron), Alana Finlayson (Oil and Gas Authority)
 
-*Part of Subsurface Hackathon 2018 in Salt Lake City*
+...*Part of Subsurface Hackathon 2018 in Salt Lake City*
   
---  
+![](https://github.com/didiooi/UnconformityDetection/blob/master/misc/logo.png)
+  
 ## Motivation  
 * Manual interpretation is time-consuming  
 * Auto-tracking is far from perfect and still requires human QC  
@@ -16,8 +17,6 @@ Collaborators: Didi Ooi, Karin Maria (Shell), Zoe Zhang (Chevron), Alana Finlays
 Unconformity is the maximum flooding surface between discontinuous beds in the subsurface. Understanding unconformities locally, regionally, and globally is the basis of sequence stratigraphy. Importance of understanding unconformity include:  
 * Hydrocarbon migration indicators (if the unconformity is permeable)  
 * Reservoir trap (if beds overlying the eroded surface are impermeable)  
-
-(*Popular unconformities include Base Cretaceous Unconformity. Popular reservoirs with permeable unconformity pathways include Permian. Excellent unconformity traps include the Prudhoe Bay oil field and flanks of Central Kansas and Nemaha uplifts, such as the Mississippian limestone of the Central Kansas uplift beneath the Pennsylvanian/Mississippian unconformity.*)  
 
 Can we utilize AI to help identify and map key unconformities in earth models? In Seismic?  
   
@@ -34,18 +33,25 @@ Dataset:
 -	Existing Seismic Data or Velocity Data  
 -	Earth Model  
   
-## Step 1: Training Data  
-Mini Goal: Create Image Pairs of data and model.  
-1.	Create a bulk of seismic images and generate the paired binary model of the unconformity line. However, due to sparsity of the data this may not be possible.  
+## Step 1: Training Data (Input) Preparation  
+Goal: Generate enough data and transform it to be ready as input files into training model.  
+Create Automated Labeling, Tile Maker, Image Pairs of data and model, CycleGAN model.  
+
+1. Create a bulk of seismic images and generate the paired binary model of the unconformity line. However, due to sparsity of the data this may not be possible.  
 2.	Use a velocity model (derived from existing earth model) and assign velocity constraints on beds above and below unconformity to create binary model for the paired image.  
   
-How can we create training data? Synthetic Seismic Data and Real Seismic Data  
-How do you make labels from the data?  
-How do you make the tile model? Binarisation?  
-How can we increase of training data set? Minor rotate of XX degrees.  
+...How can we create training data? Synthetic Seismic Data and Real Seismic Data  
+...How do you make labels from the data?  
+...How do you make the tile model? Binarisation?  
+...How can we increase of training data set? Minor rotate of XX degrees.  
+
+## Step 2: Model Training Deep Learning
+Goal: Train image-to-image translation with as many data as possible and predict.  
+Algorithm: CycleGAN
+Software: Tensorflow
   
-## Step 2: GAN for image-to-image translation  
-We can use image  
+## Step 2: Using GAN to predict  
+Current prediction on 5 blind test data: 80% accuracy  
 
 ## Resources
 [**Presentation Slide**](https://docs.google.com/presentation/d/1vwxIKiREnsplgJSapd_Hqvakvf5Alu5WpRnMS_sSUIw/edit#slide=id.g3ab9f14b8d_0_0)  
@@ -63,4 +69,5 @@ Steve Purves
   
 ## Terminology
 **Unconformity**: A discontinuity in sediment deposition shown as buried erosional surface separating 2 rock masses or strata of different ages. or Geologic surface separating older from younger rocks and representing a gap in the geologic record.  
+...(*Popular unconformities include Base Cretaceous Unconformity. Popular reservoirs with permeable unconformity pathways include Permian. Excellent unconformity traps include the Prudhoe Bay oil field and flanks of Central Kansas and Nemaha uplifts, such as the Mississippian limestone of the Central Kansas uplift beneath the Pennsylvanian/Mississippian unconformity.*)  
 **GAN**: Part of convolutional neural network, a class of unsupervised learning, implemented by a competing dual-neural-network system.  
