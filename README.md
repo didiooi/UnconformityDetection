@@ -73,8 +73,9 @@ Channel detection in Deepwater Turbidite systems
 [Paper for CycleGAN](https://arxiv.org/abs/1703.10593)  
     
 ##  Thanks  
-Evan, Gram and Diego from [Agile*](https://agilescientific.com)
-Steve Purves
+Evan and Diego from [Agile*](https://agilescientific.com)  
+Gram Ganssle  
+Steve Purves  
   
 ## Terminology
 **Unconformity**: A discontinuity in sediment deposition shown as buried erosional surface separating 2 rock masses or strata of different ages. or Geologic surface separating older from younger rocks and representing a gap in the geologic record.  
