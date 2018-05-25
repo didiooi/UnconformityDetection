@@ -56,7 +56,7 @@ Current prediction on 5 blind test data: 80% accuracy
 
 ## Step 4: UI
 Mock-up of [UI for Deep Learning Application on Seismic](https://share.proto.io/9PV78C/)
-1[](https://github.com/didiooi/UnconformityDetection/blob/master/misc/Mock-up%20of%20data%20vis.JPG)
+![](https://github.com/didiooi/UnconformityDetection/blob/master/misc/Mock-up%20of%20data%20vis.JPG)
 
 ## Other Applications
 Channel detection in Deepwater Turbidite systems 
