@@ -86,6 +86,7 @@ Integrate logs to train seismic images
 [Pynoddy](https://github.com/flohorovicic/pynoddy)   
 [CycleGAN repo](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)  
 [Paper for CycleGAN](https://arxiv.org/abs/1703.10593)  
+[Pix2pix](https://phillipi.github.io/pix2pix/)
     
 ##  Thanks  
 Evan and Diego from [Agile*](https://agilescientific.com)  
