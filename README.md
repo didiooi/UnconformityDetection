@@ -11,7 +11,7 @@ In just one and a half day, our team built a POC deep neural network architectur
 ## Motivation  
 * Manual interpretation is time-consuming  
 * Auto-tracking is far from perfect and still requires human QC  
-* The problem of improving our unconformity mapping is widespread for geologists and geophysicists in exploration.  
+* The problem of improving unconformity mapping is widespread among geologists and geophysicists in exploration.  
   
 ## Background  
 Unconformity is the contact between discontinuous beds in the subsurface. It represents a break in the geologic record. Understanding unconformities locally, regionally, and globally is the basis of sequence stratigraphy. Importance of understanding unconformity include:  
